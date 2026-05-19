@@ -16,9 +16,9 @@ Modern operating systems have decoupled the application layer from the hardware 
 
 The engine undergoes continuous hotpath optimization validated by rigorous smoke-testing layers.
 
-| Version | Release Strategy | Handle Churn Reuse | Cross-Process IPC Efficiency | Hotpath Dispatching |
+| Version | Release Strategy | Handle Churn Reuse | Cross-Process IPC Efficiency
 | :--- | :--- | :--- | :--- | :--- |
-| **v249** | Basic Cache Tracking | Thread-Isolated Hint | Standard Fallback Inter-Process | 97.2% |
-| **v250** | Generation Masking | Generational Slot Recycle | Lock-Contended Duplication | 98.1% |
-| **v255** | Single-Table Free-Batch | TLS One-Table Batch | Flushed Local Cache on Switch | 99.1% |
-| **v256** | **Multi-Table Free-Batch** | **TLS Multi-Table Lanes** | **Zero-Flush Parent/Child Churn** | **99.2%** |
+| **v249** | Basic Cache Tracking | Thread-Isolated Hint | Standard Fallback Inter-Process 
+| **v250** | Generation Masking | Generational Slot Recycle | Lock-Contended Duplication 
+| **v255** | Single-Table Free-Batch | TLS One-Table Batch | Flushed Local Cache on Switch 
+| **v256** | **Multi-Table Free-Batch** | **TLS Multi-Table Lanes** | **Zero-Flush Parent/Child Churn** 
