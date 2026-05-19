@@ -1,0 +1,30 @@
+#pragma once
+/* myOS Win32 SDK - winerror.h */
+#include "winnt.h"
+
+#define ERROR_SUCCESS              0u
+#define ERROR_INVALID_FUNCTION     1u
+#define ERROR_FILE_NOT_FOUND       2u
+#define ERROR_PATH_NOT_FOUND       3u
+#define ERROR_TOO_MANY_OPEN_FILES  4u
+#define ERROR_ACCESS_DENIED        5u
+#define ERROR_INVALID_HANDLE       6u
+#define ERROR_NOT_ENOUGH_MEMORY    8u
+#define ERROR_BAD_FORMAT           11u
+#define ERROR_INVALID_PARAMETER    87u
+#define ERROR_INVALID_WINDOW_HANDLE 1400u
+#define ERROR_INVALID_INDEX         1413u
+#define ERROR_INSUFFICIENT_BUFFER  122u
+#define ERROR_MOD_NOT_FOUND        126u
+#define ERROR_PROC_NOT_FOUND       127u
+#define ERROR_ENVVAR_NOT_FOUND     203u
+#define ERROR_FILENAME_EXCED_RANGE 206u
+#define ERROR_ALREADY_EXISTS       183u
+#define ERROR_OPERATION_ABORTED    995u
+#define ERROR_NO_ASSOCIATION       1155u
+#define ERROR_CANCELLED             1223u
+#define ERROR_INVALID_ACL          1336u
+#define ERROR_INVALID_SID          1337u
+#define ERROR_INVALID_SECURITY_DESCR 1338u
+#define ERROR_RESOURCE_NAME_NOT_FOUND 1814u
+#define ERROR_RESOURCE_DATA_NOT_FOUND 1812u
